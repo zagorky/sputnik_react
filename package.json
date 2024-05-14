@@ -1,6 +1,7 @@
 {
   "name": "sutnik_react",
   "private": true,
+  "homepage": "https://zagorky.github.io/sputnik_react/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
