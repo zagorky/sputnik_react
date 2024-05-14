@@ -1,0 +1,45 @@
+.info{
+    width: 100%;
+    background-color: #F4F4F4; 
+    height: 230px;
+  }
+  
+  .container1{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 80px;
+  margin: 0 auto;
+  max-width: 1140px;
+  width: 100%;
+  }
+  
+  
+  .text1, .text2, .text3{
+  margin: 60px auto;
+  display:table-cell;
+  align-items: center;
+  text-align: center;
+  font-family:'Roboto-Regular',sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  
+  }
+  
+  @media screen and (min-width: 270px) and (max-width: 480px) {
+ 
+   
+   /* info */
+   .info{
+     height: 370px;
+     padding: 10px 10px;
+   
+   }
+   .container1{
+     display: block;
+   }
+   .text1, .text2, .text3{
+     display: block;
+     margin: 15px 15px;
+   }
+   
+   }

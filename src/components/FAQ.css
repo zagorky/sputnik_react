@@ -1,0 +1,96 @@
+.faq{
+    max-width: 1140px;
+    min-width: 270px;
+    max-height:1200px;
+    min-height: 580px;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 80px;
+  
+  }
+  
+  .head-faq{
+    font-family: "Roboto-Medium", sans-serif;
+    line-height: 46.88px;
+    font-weight: 500;
+    font-size: 42px;
+    color: #000000;
+  
+  }
+  .accordion {
+    font-family: "Roboto-Medium", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: #ffffff;
+    color: #222222;
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+    outline: none;
+    transition: 0.4s;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    border: none;
+  }
+  
+  .radio{
+    display: none !important;
+  }
+  
+  .accordion:after {
+    content:url(../images/toggle1.svg); 
+    font-size: 13px;
+    float: right;
+    margin-left: 10px;
+  }
+  
+  .active:after {
+    content: url(../images/toggle2.svg); 
+  }
+  
+  .divider{
+    background-color:#D5D5D5;
+    color: #D5D5D5;
+    height: 0.5px;
+  }
+  .active, .accordion:hover {
+    color: #C41429;  
+  
+  }
+  
+  .panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+  }
+  
+  
+  .acc-text{
+    max-width: 1043px;
+    width: 100%;
+    font-family: "Roboto-Regular";
+    font-size: 16px;
+    font-weight: 400;
+    padding: 30px 0 30px 0;
+    line-height: 24px;
+  }
+
+  @media screen and (min-width: 270px) and (max-width: 480px) {
+
+   
+   /* faq */
+   .faq{
+     padding: 10px 10px;
+     max-height: 2000px;
+   }
+   .head-faq{
+     font-size: 30px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+   }
+
+   }

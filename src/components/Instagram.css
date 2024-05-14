@@ -1,0 +1,54 @@
+.instagram{
+    max-width: 100%;
+    height: 244px;
+  }
+  
+  .instagram-container{
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+  }
+  
+  .instagram-header-title{
+    width: 289px;
+    height: 49px;
+    font-family: "Roboto-Medium", sans-serif;
+    font-weight: 500;
+    font-size: 42px;
+    color: #000000;
+  }
+  
+  .instagram-body-container{
+    display: flex;
+    flex-direction: row;
+    column-gap: 30px;
+  }
+
+  @media screen and (min-width: 270px) and (max-width: 480px) {
+
+
+   /* instagram */
+   .instagram{
+     height: auto;
+   }
+   
+   .instagram-header{
+     margin: auto;
+     font-size: 30px;
+   
+   }
+   
+   .instagram-body-container{
+     flex-direction: column;
+     row-gap: 15px;
+   }
+   
+   .instagram-body-container img{
+     width: 215px;
+     aspect-ratio: 1;
+     margin: auto;
+   }
+   
+   }

@@ -1,0 +1,52 @@
+.map{
+    max-width: 1140px;
+    min-width: 270px;
+    height: 626px;
+    min-height: auto;
+    background-color: #fff;
+    margin: auto;
+  }
+  .map-head{
+     font-family: "Roboto-Medium", sans-serif;
+     display: flex;
+     height: 169px;
+     max-width: 1140px;
+  
+     font-size: 40px;
+     font-weight: 500;
+     vertical-align: bottom;
+     align-items: flex-end;
+  }
+  .gmap{
+    max-width: 1140px;
+    min-width: 100%;
+    height: 457px; 
+    min-height: auto;
+    margin-top: 20px;
+    border: 0;
+    filter:grayscale(1);
+  }
+  .map-head-city{
+    color: #C41429 !important;
+    font-family: "Roboto-Regular", sans-serif;;
+    font-weight: 400;
+  }
+  
+
+  @media screen and (min-width: 270px) and (max-width: 480px) {
+
+   
+     /* map */
+   .map{
+     display: block;
+     padding: 10px 10px;
+   }
+   .map-head{
+   height: 80px;
+   font-size: 30px;
+   margin-left: 0px;
+   
+   }
+   
+
+   }
