@@ -4,7 +4,7 @@
     height: 230px;
   }
   
-  .container1{
+  .container-info{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 80px;
@@ -13,8 +13,7 @@
   width: 100%;
   }
   
-  
-  .text1, .text2, .text3{
+  .block-info {
   margin: 60px auto;
   display:table-cell;
   align-items: center;
@@ -24,7 +23,18 @@
   font-weight: 400;
   
   }
-  
+  .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+    opacity: 0;
+  }
+
   @media screen and (min-width: 270px) and (max-width: 480px) {
  
    

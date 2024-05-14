@@ -1,7 +1,7 @@
 header{ 
     height: 80px; 
     border-bottom: solid 1px #EFEFEF; 
-  border-width: 100%; 
+   border-width: 100%; 
   } 
   .First-header{ 
   height: 80px; 
@@ -50,7 +50,7 @@ header{
   
   li{ 
     list-style-type: none; 
-    font-family: Roboto-Regular; 
+    font-family: "Roboto-Regular", sans-serif; 
     font-size: 16px; 
      
   } 

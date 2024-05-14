@@ -1,4 +1,4 @@
-
+import './FAQ.css'
 
 
 
@@ -52,3 +52,5 @@
 //   <hr class="divider">
   
 // </section> 
+
+export default FAQ
