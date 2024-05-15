@@ -2,7 +2,7 @@ import './App.css'
 import './fonts.css'
 import './normalize.css'
 import Header from './components/1_Header/Header'
-import Swiper from './components/2_Swiper/Swiper'
+// import Swiper from './components/2_Swiper/Swiper'
 import Photos from './components/3_Photos/Photos'
 import AboutUs from './components/4_AboutUs/AboutUs'
 import Info from './components/5_Info/Info'
@@ -25,7 +25,7 @@ function App() {
   return (
     <>
       <Header />
-      <Swiper />
+      {/* <Swiper /> */}
       <Photos />
       <AboutUs />
       <Info />

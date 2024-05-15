@@ -1,4 +1,4 @@
-.faq{
+ .faq{
     max-width: 1140px;
     min-width: 270px;
     max-height:1200px;
@@ -7,90 +7,96 @@
     padding-top: 50px;
     padding-bottom: 80px;
   
-  }
-  
-  .head-faq{
+  } 
+
+   .head-faq{
     font-family: "Roboto-Medium", sans-serif;
     line-height: 46.88px;
     font-weight: 500;
     font-size: 42px;
     color: #000000;
   
-  }
-  .accordion {
-    font-family: "Roboto-Medium", sans-serif;
-    font-size: 18px;
-    font-weight: 500;
-    background-color: #ffffff;
-    color: #222222;
-    cursor: pointer;
-    width: 100%;
-    text-align: left;
-    outline: none;
-    transition: 0.4s;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 80px;
-    border: none;
-  }
-  
-  .radio{
-    display: none !important;
-  }
-  
-  .accordion:after {
-    content:url(../images/toggle1.svg); 
-    font-size: 13px;
-    float: right;
-    margin-left: 10px;
-  }
-  
-  .active:after {
-    content: url(../images/toggle2.svg); 
-  }
-  
-  .divider{
-    background-color:#D5D5D5;
-    color: #D5D5D5;
-    height: 0.5px;
-  }
-  .active, .accordion:hover {
-    color: #C41429;  
-  
-  }
-  
-  .panel {
-    padding: 0 18px;
-    background-color: white;
-    display: none;
-    overflow: hidden;
-  }
-  
-  
-  .acc-text{
-    max-width: 1043px;
-    width: 100%;
-    font-family: "Roboto-Regular";
-    font-size: 16px;
-    font-weight: 400;
-    padding: 30px 0 30px 0;
-    line-height: 24px;
+  } 
+
+.acor-container .acor-body {
+	max-width: 1140px;
+	/* margin: 0 auto; */
+	height: 0;
+	color: rgba(0, 0, 0, 0);
+  background-color: white;
+	line-height: 18px;
+  /* padding: 0px 0px; */
+	box-sizing: border-box;
+	transition: color 0.5s, padding 0.5s;
+	overflow: hidden;
+  font-family: "Roboto-Regular",sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.accordion {
+	cursor: pointer;
+  background-color: #ffffff;
+  display: block;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+	padding: 30px 0px;
+	width: 100%;
+  color: #222222;
+	box-sizing: border-box;
+	z-index: 100;
+  font-family: "Roboto-Medium", sans-serif !important;
+	font-size: 18px;
+  font-weight: 500 !important;
+	transition: color .35s;
+  border: none;
+  height: 80px;
+  outline: none;
+}
+.accordion:hover {
+  color: #C41429; 
+}
+.radio{
+  display: none !important;
+}
+
+.accordion:before {
+  content:url(../img/toggle1.svg); 
+	float: right;
+}
+.radio:checked + .accordion {
+  color: #C41429; 
+
+}
+.radio:checked + .accordion:before {
+    transition: transform .35s;
+    transform: rotate(45deg);
+    opacity: 75%;
+}
+.radio:checked + .accordion + .acor-body {
+	height: auto;
+	margin-top: -5px;
+	color: #000;
+	padding: 20px 30px 10px;
+}
+.divider{
+  opacity: 50%;
   }
 
-  @media screen and (min-width: 270px) and (max-width: 480px) {
+@media screen and (min-width: 270px) and (max-width: 480px) {
 
    
-   /* faq */
-   .faq{
-     padding: 10px 10px;
-     max-height: 2000px;
-   }
-   .head-faq{
-     font-size: 30px;
+
+  .faq{
+    padding: 10px 10px;
+    max-height: 2000px;
+  }
+  .head-faq{
+    font-size: 30px;
     margin: auto;
     display: flex;
     justify-content: center;
-   }
+  }
 
-   }
+  }

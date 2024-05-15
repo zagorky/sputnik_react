@@ -85,8 +85,8 @@ export const insta = [
   },
 ]
 
-export const swiper = [
-  {
+// export const swiper = [
+//   {
 
-  },
-]
+//   },
+// ]
