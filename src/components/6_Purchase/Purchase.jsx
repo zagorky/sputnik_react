@@ -3,8 +3,8 @@ import './Purchase.css'
 
 function Purchase (props) {
   return (
-    <div>
-      <img src={props.img} alt="" />
+    <div className='purchase-cart-block'>
+      <img src={props.img} alt="" className='purchase-img' />
       <p className="purchase_discript">{props.type}</p>
       <p className="price">{props.price}</p>
     </div>
