@@ -3,16 +3,16 @@ import './Form.css'
 
 function Form () {
  return (
-<section class="subscribe">
-<form class="subscribe-form">
-  <div class="subscribe-form-header">
-    <h3 class="subscribe-form-header-title">Подпишись!</h3>
-    <div class="subscribe-form-header-subtitle">Информация о жизни бренда и новых коллекциях</div>
+<section className="subscribe">
+<form className="subscribe-form">
+  <div className="subscribe-form-header">
+    <h3 className="subscribe-form-header-title">Подпишись!</h3>
+    <div className="subscribe-form-header-subtitle">Информация о жизни бренда и новых коллекциях</div>
   </div>
-  <div class="subscribe-form-body">
-    <label for="user-email" class="visually-hidden">Email</label>
-    <input class="subscribe-form-input" id="user-email" placeholder="Ваш email" />
-    <button class="subscribe-form-button" type="submit">Отправить</button>
+  <div className="subscribe-form-body">
+    <label for="user-email" className="visually-hidden">Email</label>
+    <input className="subscribe-form-input" id="user-email" placeholder="Ваш email" />
+    <button className="subscribe-form-button" type="submit">Отправить</button>
   </div>
 </form>
 </section>

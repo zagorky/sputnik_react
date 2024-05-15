@@ -5,7 +5,7 @@
     min-height: 580px;
     margin: 0 auto;
     padding-top: 50px;
-    padding-bottom: 80px;
+    padding-bottom: 50px;
   
   } 
 
@@ -20,12 +20,10 @@
 
 .acor-container .acor-body {
 	max-width: 1140px;
-	/* margin: 0 auto; */
 	height: 0;
 	color: rgba(0, 0, 0, 0);
   background-color: white;
 	line-height: 18px;
-  /* padding: 0px 0px; */
 	box-sizing: border-box;
 	transition: color 0.5s, padding 0.5s;
 	overflow: hidden;
@@ -78,7 +76,7 @@
 	height: auto;
 	margin-top: -5px;
 	color: #000;
-	padding: 20px 30px 10px;
+	/* padding: 10px ; */
 }
 .divider{
   opacity: 50%;

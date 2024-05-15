@@ -1,6 +1,6 @@
 .photos{
     width: 100%;
-    height: 714px;
+    /* height: 714px; */
     background-color: #F4F4F4;
   }
   
@@ -49,15 +49,14 @@
     font-weight: 400;
     font-size: 22px;
     line-height: 26px;
-    top: 175px;
-    left: 103px;
+    cursor: pointer;
   }
   
   .photos-list div:nth-child(6) img{
     position: absolute;
     top: 187px;
     left: 297px;
-  
+    cursor: pointer;
   }
   
   .photos-list-item{

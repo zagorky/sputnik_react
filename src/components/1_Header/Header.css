@@ -14,7 +14,7 @@ header{
     height:80px; 
     display: grid; 
     margin: auto; 
-    grid-template-columns: repeat(12, 1fr); 
+    grid-template-columns: repeat(6, 1fr); 
     gap: 30px; 
     justify-content: center; 
   } 
