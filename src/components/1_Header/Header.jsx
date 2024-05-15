@@ -1,5 +1,5 @@
 import './Header.css'
-import logo from '/public/logo.png'
+import logo from '/logo.png'
 
 function Header () {
   const name = "Sputnik";
@@ -26,7 +26,7 @@ function Header () {
       </clipPath>
       </defs>
       </svg>
-      <tel className="number">+7 (495) 288-44-24</tel>
+      <div className="number">+7 (495) 288-44-24</div>
       <div className="cart">
         <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M12 29.3333C12.7363 29.3333 13.3333 28.7364 13.3333 28C13.3333 27.2636 12.7363 26.6667 12 26.6667C11.2636 26.6667 10.6666 27.2636 10.6666 28C10.6666 28.7364 11.2636 29.3333 12 29.3333Z" stroke="#222222" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>

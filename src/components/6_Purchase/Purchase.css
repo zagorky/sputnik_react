@@ -58,6 +58,7 @@
    }
    .purchase{
      height: auto;
+     padding: 10px;
    }
    .purchase-img{
      margin: auto;

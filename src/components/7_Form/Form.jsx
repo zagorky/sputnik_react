@@ -1,7 +1,11 @@
 import './Form.css'
+import Button_submit from '../Button/Button_submit'
 
 
 function Form () {
+  function handleClick() {
+    alert('Отправили!')
+}
  return (
 <section className="subscribe">
 <form className="subscribe-form">
@@ -12,7 +16,7 @@ function Form () {
   <div className="subscribe-form-body">
     <label for="user-email" className="visually-hidden">Email</label>
     <input className="subscribe-form-input" id="user-email" placeholder="Ваш email" />
-    <button className="subscribe-form-button" type="submit">Отправить</button>
+    <Button_submit onClick={handleClick}>Отправить</Button_submit>
   </div>
 </form>
 </section>

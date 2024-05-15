@@ -55,38 +55,13 @@
     font-size: 16px;
     color: #999999;
     border: 1px solid #c4c4c4;
-  }
-  
-  .subscribe-form-button {
-    width: 220px;
-    height: 45px;
-    font-family: "Roboto-Regular", sans-serif;
-    font-weight: 400;
-    font-size: 18px;
-    color: #ffffff;
-    background-color: transparent;
-    border: 1px solid #ffffff;
-  }
-  
-  .subscribe-form-button:hover {
-    background-color: #999999;
-    cursor: pointer;
-  }
-  
+  } 
   @media screen and (min-width: 270px) and (max-width: 480px) {
-
-   /* form */
-   .subscribe-form-body{
+    .subscribe-form-body{
      column-gap: 15px;
    }
    
    .subscribe-form-input{
      width: 215px;
-   }
-   
-   .subscribe-form-button{
-     width: 145px;
-   }
-   
-  
+   } 
    }

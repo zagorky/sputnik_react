@@ -2,6 +2,13 @@
 Макет:https://www.figma.com/file/0QPNghhhVCDlJonftvXgNy/Sputnik?type=design&node-id=1-2&mode=design&t=R3B8ICO2TKKvUq85-0
 Исходный код: https://github.com/zagorky/Sputnik
 
+Отработаны :
+деструктуризация кода на компоненты
+импорт и экспорт компонентов в приложение
+знакомство с событиями в реакт (onClick)
+знакомство с хуками (useState)
+
+
 
 
 
