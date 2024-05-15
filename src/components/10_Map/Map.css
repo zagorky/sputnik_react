@@ -7,11 +7,10 @@
     margin: auto;
   }
   .map-head{
-     font-family: "Roboto-Medium", sans-serif;
      display: flex;
      height: 169px;
      max-width: 1140px;
-  
+     font-family: "Roboto-Medium", sans-serif;
      font-size: 40px;
      font-weight: 500;
      vertical-align: bottom;

@@ -1,4 +1,4 @@
-const faq = [
+export const faq = [
     { q: "Дизайн точно уникальный? Кто придумывает?",
       a: "Бренд SPUTNIK был основан в октябре 2013 года в Тольятти. У нас был опыт в производстве спортивного инвентаря и большое желание сделать классный городской рюкзак. Мы долго искали ткани и фурнитуру, экспериментировали с силуэтами и цветами. Наконец был разработан первый рюкзак — SPUTNIK M1. Первые небольшие партии разошлись по друзьям и знакомым. Тогда стало понятно, что результат нашей работы нравится не только нам. В течение 5 лет мы разрабатывали новые модели и сотрудничали с международными и локальными брендами.", 
     },
@@ -16,45 +16,77 @@ const faq = [
  export const purchase = [
   {
     type : 'Кросс-боди VERA', 
-    img : './img/cross-body.jpg',
+    img : './img/purchase1.jpg',
     price : '3 260 ₽',
   },
   {
     type : 'Тоут MARCEL', 
-    img : './img/tout.png',
+    img : './img/purchase2.png',
     price : '12 650 ₽',
+    sale : '14 190 ₽'
   },
   {
     type : 'Рюкзак М1',
-    img : './img/backpack.jpg', 
+    img : './img/purchase3.jpg', 
     price : '4 650 ₽',
   },
   {
     type : 'Поясная сумка INGE', 
-    img : './img/waist-bag.jpg',
+    img : './img/purchase4.jpg',
     price : '2 990 ₽',
   },
 ]
 
-const Photos = [
+export const photos = [
   {
     type : 'Тоут',
-    pic : './images/catalog/1.jpg',
+    pic : './img/photos1.jpg',
   },
   {
     type : 'Рюкзаки',
-    pic : './images/catalog/2.jpg',
+    pic : './img/photos2.jpg',
   },
   {
     type : 'Поясные',
-    pic : './images/catalog/3.jpg',
+    pic : './img/photos3.jpg',
   },
   {
     type : 'Роллтоп',
-    pic : './images/catalog/4.jpg',
+    pic : './img/photos4.jpg',
   },
   {
     type : 'Кросс-Боди',
-    pic : './images/catalog/5.jpg',
+    pic : './img/photos5.jpg',
+  },
+  {
+    type : 'Смотреть всю коллекцию',
+    pic : './img/arrow-more.svg',
+  },
+]
+
+export const insta = [
+  {
+    img : './img/insta1.jpg',
+  },
+  {
+    img : './img/insta2.jpg',
+  },
+  {
+    img : './img/insta3.jpg',
+  },
+  {
+    img : './img/insta4.jpg',
+  },
+  {
+    img : './img/insta5.jpg',
+  },
+  {
+    img : './img/insta6.jpg',
+  },
+]
+
+export const swiper = [
+  {
+
   },
 ]

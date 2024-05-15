@@ -21,9 +21,9 @@
   }
   
   .instagram-body-container{
-    display: flex;
-    flex-direction: row;
-    column-gap: 30px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    column-gap: 10px;
   }
 
   @media screen and (min-width: 270px) and (max-width: 480px) {

@@ -1,6 +1,7 @@
 import './Instagram.css'
+import { insta } from '../../data'
 
-function Instagram () {
+function Instagram (props) {
 return (
 <section class = "instagram">
     <div class="instagram-container">
@@ -9,12 +10,12 @@ return (
       </div>
       <div class="instagram-body">
         <div class="instagram-body-container">
-          <img src="./images/1.jpg" alt="" />
-          <img src="./images/2.jpg" alt="" />
-          <img src="./images/3.jpg" alt="" />
-          <img src="./images/4.jpg" alt="" />
-          <img src="./images/5.jpg" alt="" />
-          <img src="./images/6.jpg" alt="" />
+          <img src={insta[0].img} alt="" />
+          <img src={insta[1].img} alt="" />
+          <img src={insta[2].img} alt="" />
+          <img src={insta[3].img} alt="" />
+          <img src={insta[4].img} alt="" />
+          <img src={insta[5].img} alt="" />
         </div>
       </div>
     </div>

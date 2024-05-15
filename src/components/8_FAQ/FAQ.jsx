@@ -1,56 +1,39 @@
 import './FAQ.css'
+import { faq } from '../../data'
 
 
 
-
-
-
-
-// <section class="faq">
-// <h2 class="head-faq">Вопрос-ответ</h2>
-
-// <input type="radio" name="q1" id="q1" class="radio">
-// <label for="q1" class="accordion">Дизайн точно уникальный? Кто придумывает?</label>
-//   <div class="panel">
-//     <p class="acc-text">Бренд SPUTNIK был основан в октябре 2013 года в Тольятти. У нас был опыт в
-//       производстве спортивного инвентаря и большое желание сделать классный городской рюкзак. Мы долго 
-//       искали ткани и фурнитуру, экспериментировали с силуэтами и цветами. Наконец был разработан первый 
-//       рюкзак — SPUTNIK M1. Первые небольшие партии разошлись по друзьям и знакомым. Тогда стало понятно, 
-//       что результат нашей работы нравится не только нам. В течение 5 лет мы разрабатывали новые модели и 
-//       сотрудничали с международными и локальными брендами.</p>
-//   </div>
-//   <hr class="divider">
-
-//   <input type="radio" name="q2" id="q2" class="radio">
-//   <label for="q2" class="accordion">Как ухаживать за сумками?</label>
-//   <div class="panel">
-//     <p class="acc-text">Небольшие загрязнения и пятна на изделиях можно устранить с помощью влажной 
-//       салфетки или губки. Если этот способ вам не помог, вещи можно постирать: все изделия из кордуры 
-//       мы рекомендуем стирать в машинке при 40°. А сумки из канваса требуют стирки в холодной воде 
-//       в щадящем режиме, это поможет избежать усадки ткани.</p>
-//   </div>
-//   <hr class="divider">
-
-//   <input type="radio" name="q3" id="q3" class="radio">
-//   <label for="q3" class="accordion">Я могу вернуть заказ, если он просто не подойдет?</label>
-//   <div class="panel">
-//     <p class="acc-text">Мы предоставляем гарантию в 1 год с момента покупки. Если в течение  этого 
-//       срока вы обнаружите дефект издения, напишите нам, и мы обязательно найдем решение. Обратите 
-//       внимание, что гарантия не будет действовать, если дефект или неисправность вызваны неаккуратным 
-//       использованием или несоблюдением правил по уходу.</p>
-//   </div>
-//   <hr class="divider">
-  
-//   <input type="radio" name="q4" id="q4" class="radio">
-//   <label for="q4" class="accordion">Вы работаете с корпоративными клиентами?</label>
-//   <div class="panel">
-//     <p class="acc-text">Мы разрабатываем мерч и корпоративные подарки. Среди наших клиентов — крупные 
-//       международные компании и небольшие локальные бренды. В зависимости от задачи мы можем создать 
-//       уникальное изделие или переосмыслить аксессуары из нашей линейки. Присылайте детали на почту 
-//       whitelabel@sputnik-bags.ru, а мы отправим вам примеры наших проектов.</p>
-//   </div>
-//   <hr class="divider">
-  
-// </section> 
+function FAQ (props) {
+    return (
+        <section class="faq">
+        <h2 class="head-faq">Вопрос-ответ</h2>
+            <input type="radio" name="q1" id="q1" class="radio" />
+            <label for="q1" class="accordion">{faq[0].q}</label>
+            <div class="panel">
+                <p class="acc-text">{faq[0].a}</p>
+            </div>
+            <hr class="divider" />
+            <input type="radio" name="q2" id="q2" class="radio" />
+            <label for="q2" class="accordion">{faq[1].q}</label>
+            <div class="panel">
+                <p class="acc-text">{faq[1].a}</p>
+            </div>
+            <hr class="divider" />    
+            <input type="radio" name="q3" id="q3" class="radio" />
+            <label for="q3" class="accordion">{faq[2].q}</label>
+            <div class="panel">
+                <p class="acc-text">{faq[2].a}</p>
+            </div>
+            <hr class="divider" />
+        
+            <input type="radio" name="q4" id="q4" class="radio" />
+            <label for="q4" class="accordion">{faq[3].q}</label>
+            <div class="panel">
+                <p class="acc-text">{faq[3].a}</p>
+            </div>
+            <hr class="divider" />
+    </section>
+    )  
+}
 
 export default FAQ

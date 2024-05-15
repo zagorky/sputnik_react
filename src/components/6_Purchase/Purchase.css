@@ -36,13 +36,13 @@
 
   }
   .purchase_discript{
-    font-family: Roboto-Regular;
+    font-family: "Roboto-Medium", sans-serif;
     font-size: 18px;
     margin-top: 15px;
     margin-bottom: 12px;
   }
   .price{
-    font-family: Roboto-Medium;
+    font-family: "Roboto-Medium", sans-serif;
     font-size: 22px;
   }
   .last_price{
@@ -78,6 +78,7 @@
    }
    .price{
      margin-bottom: 12px;
+     font-size:14px;
    }
 
    }

@@ -1,5 +1,5 @@
 
-.main{
+.swiper-main{
     max-width: 1140px;
     margin:auto;
     display: grid;
@@ -8,31 +8,31 @@
     
   }
   
-  .main div:nth-child(1) {
+  .swiper-main div:nth-child(1) {
     grid-column: 1 / span 4;
   }
   
-  .main div:nth-child(2) {
+  .swiper-main div:nth-child(2) {
     grid-column: 7 / span 6;
   }
   
-  .text{
+  .swiper-text{
     height: 173px;
     margin-top: 120px;
   }
   
-  .text h2{
+  .swiper-text h2{
     font-family: Roboto-Bold;
     font-size: 48px;
     color: #222222;
   }
   
-  .text p{
+  .swiper-text p{
     font-family: Roboto-Regular !important;
     font-size: 20px !important;
   }
   
-  .text-button{
+  .swiper-text-button{
     font-family: Roboto-Regular;
     font-size: 18px;
     width: 220px;
@@ -80,13 +80,13 @@
   @media screen and (min-width: 270px) and (max-width: 480px) {
 
     /* swiper */
-   .main{
+   .swiper-main{
      display:block ;
      height: auto;
      margin: auto;
      padding: 10px 10px;
    }
-   .text{
+   .swiper-text{
      margin: auto;
      text-align: start;
    }
@@ -96,13 +96,13 @@
      left: 0% !important;
      width: 100% !important;
    }
-   .text-button{
+   .swiper-text-button{
      width: 120px;
      height: 30px;
      font-size: 15px;
    }
    
-   .container{
+   .swiper-container{
      height: auto;
    }
    

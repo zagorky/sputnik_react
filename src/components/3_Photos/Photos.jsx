@@ -1,34 +1,35 @@
 import './Photos.css'
+import { photos } from '../../data'
 
-function Photos () {
+function Photos (props) {
     return (
-<section class="catalog" id="catalogId"> 
-    {/* <div class="catalog-list"> 
-       <div class="catalog-list-item">
-        <img src="./images/catalog/1.jpg" alt="" class="catalog-item-img" />
-        <h2 class="catalog-list-item-title">Тоут</h2>
+<section class="photos" id="catalogId"> 
+     <div class="photos-list"> 
+       <div class="photos-list-item">
+        <img src={photos[0].pic} alt="" class="photos-item-img" />
+        <h2 class="photos-list-item-title">{photos[0].type}</h2>
       </div>
-      <div class="catalog-list-item">
-        <img src="./images/catalog/2.jpg" alt="" class="catalog-item-img" />
-        <h2 class="catalog-list-item-title">Рюкзаки</h2>
+      <div class="photos-list-item">
+        <img src={photos[1].pic} alt="" class="photos-item-img" />
+        <h2 class="photos-list-item-title">{photos[1].type}</h2>
       </div>
-      <div class="catalog-list-item">
-        <img src="./images/catalog/3.jpg" alt="" class="catalog-item-img" />
-        <h2 class="catalog-list-item-title">Поясные</h2>
+      <div class="photos-list-item">
+        <img src={photos[2].pic} alt="" class="photos-item-img" />
+        <h2 class="photos-list-item-title">{photos[2].type}</h2>
       </div>
-      <div class="catalog-list-item">
-        <img src="./images/catalog/4.jpg" alt="" class="catalog-item-img" />
-        <h2 class="catalog-list-item-title">Роллтоп</h2>
+      <div class="photos-list-item">
+        <img src={photos[3].pic} alt="" class="photos-item-img" />
+        <h2 class="photos-list-item-title">{photos[3].type}</h2>
       </div>
-      <div class="catalog-list-item">
-        <img src="./images/catalog/5.jpg" alt="" class="catalog-item-img" />
-        <h2 class="catalog-list-item-title">Кросс-Боди</h2>
-      </div> */}
-      <div class="catalog-list-item">
-        <p class="catalog-list-item-subtitle">Смотреть <br /> всю коллекцию</p>
-        <img src="./images/catalog/arrow-more.svg" alt="" class="catalog-list-item-read-more" />
+      <div class="photos-list-item">
+        <img src={photos[4].pic} alt="" class="photos-item-img" />
+        <h2 class="photos-list-item-title">{photos[4].type}</h2>
+      </div> 
+      <div class="photos-list-item">
+        <p class="photos-list-item-subtitle">{photos[5].type}</p>
+        <img src={photos[5].pic} alt="" class="photos-list-item-read-more" />
       </div>
-    {/* </div> */}
+      </div>
   </section>
   )
 }
