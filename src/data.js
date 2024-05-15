@@ -13,18 +13,26 @@ const faq = [
     }
 ]
 
-const purchase = [
-  {type : 'Кросс-боди VERA', 
-   price : '3 260 ₽'
+ export const purchase = [
+  {
+    type : 'Кросс-боди VERA', 
+    img : './img/cross-body.jpg',
+    price : '3 260 ₽',
   },
-  {type : 'Тоут MARCEL', 
-   price : '12 650 ₽ <del> 14 190 ₽ </del>'
+  {
+    type : 'Тоут MARCEL', 
+    img : './img/tout.png',
+    price : '12 650 ₽',
   },
-  {type : 'Рюкзак М1', 
-  price : '4 650 ₽'
+  {
+    type : 'Рюкзак М1',
+    img : './img/backpack.jpg', 
+    price : '4 650 ₽',
   },
-  {type : 'Поясная сумка INGE', 
-  price : '2 990 ₽'
+  {
+    type : 'Поясная сумка INGE', 
+    img : './img/waist-bag.jpg',
+    price : '2 990 ₽',
   },
 ]
 

@@ -1,10 +1,12 @@
 import './Header.css'
+import logo from '/public/logo.png'
 
 function Header () {
+  const name = "Sputnik";
     return (
 <header>
 <div class="First-header-container">
-  <div class="logo"><img src="img/logo (2).png" alt="" srcset="" /></div>
+  <div class="logo"><img src={logo} alt={name} srcset="" /></div>
   <div class="nav">
     <ul class="nav-links">
       <li>Каталог</li>

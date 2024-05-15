@@ -1,11 +1,16 @@
 import './Footer.css'
+// import 'fonts.css'
+// import'normalize.css'
+import logo from '/public/logo.png'
+
 
 function Footer () {
+
     return (
 <footer>
   <div class="First-footer">
       <div class="First-footer-container">
-          <div class="logo"><img src="img/logo (2).png" alt="" srcset="" /></div>
+      <div class="logo"><img src={logo} alt={name} srcset="" /></div>
           <div class="nav">
             <ul class="nav-links">
               <li>Каталог</li>
