@@ -66,12 +66,13 @@
   .photos-list-item-title{
     font-family: "Roboto-Bold", sans-serif;
     font-weight: 700;
-    font-size: 32px;
+    font-size: 30px;
     color: #FFFFFF;
     text-transform: uppercase;
     position: absolute;
     top: 30px;
-    left: 30px;
+    left: 5px;
+    cursor: pointer;
   }
   
   @media screen and (min-width: 270px) and (max-width: 480px) {

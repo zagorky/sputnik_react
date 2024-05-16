@@ -1,8 +1,21 @@
 import './Swiper.css'
+import { useState } from 'react'
+
 
 
 function Swiper () {
+// const [] = useState();
+
+// setInterval(() => ,4000);
+
+
     return (
+
+
+
+
+
+
 <section>
 <div className="swiper-container">
   <div className="swiper-wrapper">

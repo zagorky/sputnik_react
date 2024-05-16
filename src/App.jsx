@@ -1,6 +1,5 @@
 import './fonts.css'
 import './normalize.css'
-// import { useState } from 'react'
 import Header from './components/1_Header/Header'
 // import Swiper from './components/2_Swiper/Swiper'
 import Photos from './components/3_Photos/Photos'
