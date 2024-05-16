@@ -17,8 +17,8 @@
     border-radius: 3px;
     padding: 15px;
     margin-top: 30px;
-}
-.faq-question:hover {
+ }
+.faq-question:hover,.active {
     color: #C41429; 
 }
 .faq-question:before {
@@ -28,8 +28,4 @@
     transition: transform .35s;
     transform: rotate(45deg);
     opacity: 75%;
-}
-.faq-question:active{
-    color: #C41429; 
-
 }
