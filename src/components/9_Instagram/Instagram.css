@@ -1,9 +1,6 @@
 .instagram{
     max-width: 100%;
     height: 244px;
-  }
-  
-  .instagram-container{
     max-width: 1140px;
     margin: 0 auto;
     display: flex;
@@ -35,7 +32,7 @@
      padding: 10px;
    }
    
-   .instagram-header{
+   .instagram-header-title{
      margin: auto;
      font-size: 30px;
    

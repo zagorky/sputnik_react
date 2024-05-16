@@ -21,11 +21,5 @@
 .faq-question:hover,.active {
     color: #C41429; 
 }
-.faq-question:before {
-   float: right;
-}
- .faq-question:before {
-    transition: transform .35s;
-    transform: rotate(45deg);
-    opacity: 75%;
-}
+
+

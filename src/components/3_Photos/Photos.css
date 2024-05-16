@@ -75,6 +75,14 @@
     cursor: pointer;
   }
   
+  .photos-list-item:last-child h2{
+    color: #000;
+    font-size: 16px;
+    font-family: "Roboto-Regular", sans-serif !important;
+    line-height: 25.78px;
+    width: 168px;
+   
+   }
   @media screen and (min-width: 270px) and (max-width: 480px) {
 
    
