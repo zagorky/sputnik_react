@@ -1,5 +1,6 @@
 import './Instagram.css'
 import { insta } from '../../data'
+import Instagram from './Instagram'
 
 export default function InstagramSection (props) {
 return (

@@ -5,27 +5,46 @@ import Header from './components/1_Header/Header'
 import PhotosSection from './components/3_Photos/PhotosSection'
 import AboutUs from './components/4_AboutUs/AboutUs'
 import Info from './components/5_Info/Info'
-import PurchaseSection from './components/6_Purchase/PurchaseSection'
+import PurchaseSection from './components/6_Purchase/PurchaseSection.jsx'
 import Form from './components/7_Form/Form'
 import FAQ_alt from './components/8_FAQ/FAQ_alt'
 import InstagramSection from './components/9_Instagram/InstagramSection'
 import Map from './components/10_Map/Map'
 import Footer from './components/11_Footer/Footer'
+import TabSection from './components/TabSection/TabSection.jsx'
+import FeedbackSection from './components/FeedbackSection/FeedbackSection.jsx'
+import { useState } from 'react'
 
 function App() {
+
+  const [tab, setTab] = useState('feedback')
+
 
   return (
     <>
       <Header />
-      {/* <Swiper /> */}
-      <PhotosSection />
-      <AboutUs />
-      <Info />
-      <PurchaseSection />
-      <Form />
-      <FAQ_alt />
-      <InstagramSection />
-      <Map />
+      <main>
+      <TabSection active={tab} onChange={(current) => setTab(current)}/>
+
+      {tab == 'main' && (
+      <>
+        <PhotosSection />
+        <AboutUs />
+        <Info />
+        <PurchaseSection/>
+        <Form />
+        <FAQ_alt />
+        <InstagramSection />
+        <Map />
+
+      </>)
+      }
+      {tab == 'feedback' && (
+        <>
+          <FeedbackSection />
+        </>)
+      }
+      </main>
       <Footer />
     </>
   )

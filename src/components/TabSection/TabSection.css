@@ -1,0 +1,14 @@
+.tab-section{
+    margin: 0 auto;
+    max-width: 1140px;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30px, 1fr));
+    gap: 10px;
+}
+.tab-section button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
