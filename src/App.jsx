@@ -7,7 +7,7 @@ import AboutUs from './components/4_AboutUs/AboutUs'
 import Info from './components/5_Info/Info'
 import PurchaseSection from './components/6_Purchase/PurchaseSection.jsx'
 import Form from './components/7_Form/Form'
-import FAQ_alt from './components/8_FAQ/FAQ_alt'
+import FAQ from './components/8_FAQ/FAQ'
 import InstagramSection from './components/9_Instagram/InstagramSection'
 import Map from './components/10_Map/Map'
 import Footer from './components/11_Footer/Footer'
@@ -24,26 +24,26 @@ function App() {
     <>
       <Header />
       <main>
-      <TabSection active={tab} onChange={(current) => setTab(current)}/>
+      {/* <TabSection active={tab} onChange={(current) => setTab(current)}/> */}
 
-      {tab == 'main' && (
-      <>
+      {/* {tab == 'main' && ( */}
+      {/* <> */}
         <PhotosSection />
         <AboutUs />
         <Info />
         <PurchaseSection/>
         <Form />
-        <FAQ_alt />
+        <FAQ />
         <InstagramSection />
         <Map />
 
-      </>)
-      }
-      {tab == 'feedback' && (
-        <>
+      {/* </>)
+      } */}
+      {/* {tab == 'feedback' && ( */}
+        {/* <>
           <FeedbackSection />
         </>)
-      }
+      } */}
       </main>
       <Footer />
     </>
